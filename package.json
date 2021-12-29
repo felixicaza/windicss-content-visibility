@@ -11,13 +11,13 @@
     "plugin",
     "content-visibility"
   ],
-  "homepage": "https://github.com/FelixIcaza/windicss-content-visibility#readme",
+  "homepage": "https://github.com/Felix-Icaza/windicss-content-visibility#readme",
   "bugs": {
-    "url": "https://github.com/FelixIcaza/windicss-content-visibility/issues"
+    "url": "https://github.com/Felix-Icaza/windicss-content-visibility/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FelixIcaza/windicss-content-visibility.git"
+    "url": "git+https://github.com/Felix-Icaza/windicss-content-visibility.git"
   },
   "license": "MIT",
   "author": "Felix Icaza <contacto@felixicaza.com>",
