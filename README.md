@@ -1,5 +1,9 @@
 # Windi CSS Plugin Content Visibility
 
+[![GitHub Actions](https://github.com/Felix-Icaza/windicss-content-visibility/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/Felix-Icaza/windicss-content-visibility/actions/workflows/test.yml)
+[![Coverage Status](https://coveralls.io/repos/github/Felix-Icaza/windicss-content-visibility/badge.svg?branch=main)](https://coveralls.io/github/Felix-Icaza/windicss-content-visibility?branch=main)
+[![Version](https://img.shields.io/github/package-json/v/Felix-Icaza/windicss-content-visibility)](https://github.com/Felix-Icaza/windicss-content-visibility/releases)
+
 This plugin adds support for using the [`content-visibility`](https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility) and [`contain-intrinsic-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/contain-intrinsic-size) CSS properties in your Windi CSS project.
 
 By default supports responsive variants.
