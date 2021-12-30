@@ -21,7 +21,6 @@
   },
   "license": "MIT",
   "author": "Felix Icaza <contacto@felixicaza.com>",
-  "type": "module",
   "main": "src/index.js",
   "scripts": {
     "coverage": "jest --config=jest.config.cjs --coverage",

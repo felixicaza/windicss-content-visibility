@@ -1,6 +1,6 @@
 /* eslint-disable consistent-return */
 
-import plugin from 'windicss/plugin'
+const plugin = require('windicss/plugin')
 
 const contentVisibility = plugin(({ addUtilities, addDynamic }) => {
   addUtilities(
@@ -36,4 +36,4 @@ const contentVisibility = plugin(({ addUtilities, addDynamic }) => {
   )
 })
 
-export default contentVisibility
+module.exports = contentVisibility
