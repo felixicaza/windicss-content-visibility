@@ -13,6 +13,21 @@ const contentVisibility = plugin(({ addUtilities, addDynamic }) => {
       },
       '.content-hidden': {
         'content-visibility': 'hidden'
+      },
+      '.content-inherit': {
+        'content-visibility': 'inherit'
+      },
+      '.content-initial': {
+        'content-visibility': 'initial'
+      },
+      '.content-revert': {
+        'content-visibility': 'revert'
+      },
+      '.content-revert-layer': {
+        'content-visibility': 'revert-layer'
+      },
+      '.content-unset': {
+        'content-visibility': 'unset'
       }
     },
     {
