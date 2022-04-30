@@ -11,6 +11,11 @@ describe('Content Visibility Plugin', () => {
       content-auto
       content-visible
       content-hidden
+      content-inherit
+      content-initial
+      content-revert
+      content-revert-layer
+      content-unset
     `
     const result = processor.interpret(css)
 
@@ -46,6 +51,11 @@ describe('Content Visibility Plugin', () => {
       md:content-visible
       lg:content-hidden
       xl:content-auto
+      sm:content-inherit
+      md:content-initial
+      lg:content-revert
+      xl:content-revert-layer
+      sm:content-unset
       sm:intrinsic-size-200
       md:intrinsic-size-350
       lg:intrinsic-size-525

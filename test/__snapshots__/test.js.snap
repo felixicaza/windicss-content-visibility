@@ -5,6 +5,12 @@ exports[`Content Visibility Plugin check responsive variants: responsive variant
   .sm\\\\:content-auto {
     content-visibility: auto;
   }
+  .sm\\\\:content-inherit {
+    content-visibility: inherit;
+  }
+  .sm\\\\:content-unset {
+    content-visibility: unset;
+  }
   .sm\\\\:intrinsic-size-200 {
     contain-intrinsic-size: 200px;
   }
@@ -12,6 +18,9 @@ exports[`Content Visibility Plugin check responsive variants: responsive variant
 @media (min-width: 768px) {
   .md\\\\:content-visible {
     content-visibility: visible;
+  }
+  .md\\\\:content-initial {
+    content-visibility: initial;
   }
   .md\\\\:intrinsic-size-350 {
     contain-intrinsic-size: 350px;
@@ -21,6 +30,9 @@ exports[`Content Visibility Plugin check responsive variants: responsive variant
   .lg\\\\:content-hidden {
     content-visibility: hidden;
   }
+  .lg\\\\:content-revert {
+    content-visibility: revert;
+  }
   .lg\\\\:intrinsic-size-525 {
     contain-intrinsic-size: 525px;
   }
@@ -28,6 +40,9 @@ exports[`Content Visibility Plugin check responsive variants: responsive variant
 @media (min-width: 1280px) {
   .xl\\\\:content-auto {
     content-visibility: auto;
+  }
+  .xl\\\\:content-revert-layer {
+    content-visibility: revert-layer;
   }
   .xl\\\\:intrinsic-size-700 {
     contain-intrinsic-size: 700px;
@@ -62,5 +77,20 @@ exports[`Content Visibility Plugin should generate content-visibility properties
 }
 .content-hidden {
   content-visibility: hidden;
+}
+.content-inherit {
+  content-visibility: inherit;
+}
+.content-initial {
+  content-visibility: initial;
+}
+.content-revert {
+  content-visibility: revert;
+}
+.content-revert-layer {
+  content-visibility: revert-layer;
+}
+.content-unset {
+  content-visibility: unset;
 }"
 `;
