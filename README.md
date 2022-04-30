@@ -39,6 +39,11 @@ Available utilities:
 | `content-auto` | `content-visibility: auto` |
 | `content-visible` | `content-visibility: visible` |
 | `content-hidden` | `content-visibility: hidden` |
+| `content-inherit` | `content-visibility: inherit` |
+| `content-initial` | `content-visibility: initial` |
+| `content-revert` | `content-visibility: revert` |
+| `content-revert-layer` | `content-visibility: revert-layer` |
+| `content-unset` | `content-visibility: unset` |
 | `intrinsic-size-${integer}` | `contain-intrinsic-size: ${integer}px` |
 
 ### Examples:
